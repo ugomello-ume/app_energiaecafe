@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>App Energia e Café</title>
+
+<link rel="stylesheet" href="css_style.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+<h2>🦊 Energia e Café</h2>
+
+<div class="card">
+
+<p>Saldo de economia</p>
+
+<h1 id="saldo">R$ 0,00</h1>
+
+</div>
+
+<input type="number" id="conta" placeholder="Digite o valor da sua conta">
+
+<input type="file" accept="image/*">
+
+<button onclick="simular()">
+Simular economia
+</button>
+
+<div id="resultado" class="hidden">
+
+<div class="dados">
+
+<p>Economia mensal</p>
+<h3 id="mensal"></h3>
+
+<p>Economia anual</p>
+<h3 id="anual"></h3>
+
+<p>Economia em 25 anos</p>
+<h3 id="vinteecinco"></h3>
+
+</div>
+
+<div class="velocimetro">
+
+<div class="barra">
+
+<div class="progresso" id="barra"></div>
+
+</div>
+
+</div>
+
+<button onclick="whats()">
+
+Receber simulação no WhatsApp
+
+</button>
+
+</div>
+
+</div>
+
+<script src="js_app.js"></script>
+
+</body>
+</html>
